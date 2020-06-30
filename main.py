@@ -1,5 +1,5 @@
 from flask import Flask
-from config import DevConfig
+from config import eDevConfig
 
 app = Flask(__name__)
 app.config.from_object(DevConfig)
